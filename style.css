@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 
+h1{
+    font-family: "Poppins", sans-serif;
+    border: 5px solid green;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: "border-box";
+}
+/* <<<<<<<<<<<<<<<heading and background>>>>>>>>>>> */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+}
+ul li{
+    list-style: none;
+}
+a{
+    font-size: 1.6rem;
+}
+
+p,li{
+    font-size: 1.6rem;
+    margin-bottom: .5em;
+    letter-spacing: .15em;
+}
+h1, h2, h3{
+    margin-bottom: .5em;
+    letter-spacing:0.15em;
+    font-weight: 500;
+}
+header{
+    /* font-family: "Poppins", sans-serif; */
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../imgfolder/heading\ of\ halluiya.jpg);
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    position: relative;
+
+}
+.navbar{
+    
+    padding: 1rem;
+}
+/* .nav-item:hover{
+    text-decoration: underline #F2F3F3;
+
+} */
+
+
+.all .logo,
+.all .navbar a{
+    color: #F2F3F3;
+    text-decoration: none;
+
+}
+ .navbar .logo{
+ float: left;
+ /* position: absolute;
+ left: 200px; */
+
+}
+
+ .navbar .nav-items {
+    float: right;
+    /* position: absolute;
+    right: 3rem; */
+    margin-top: 1rem;
+    
+   
+ 
+}
+ .navbar .nav-item {
+    display: inline-block;
+    padding: 1rem;
+  
+
+}
+.navbar a{
+    padding-bottom:.5rem;
+}
+
+.navbar a:link,
+.navbar a:visited{
+    color: #F2F3F3;
+}
+.navbar a:hover{
+    border-bottom: .2rem solid #F2F3F3;
+}
+.header-cintent a{
+    text-decoration: none;
+}
+.header-cintent a:link,
+.header-cintent a:visited{
+    color:#B29079 ;
+}
+/* <<<<<<<<<<<<<<<<<<header content>>>>>>>>>>> */
+.header-cintent h1{
+    text-transform:uppercase;
+    font-weight: 1000;
+    /* text-decoration:solid #333 .5rem ; */
+    /* font-stretch:semi-condensed  ; */
+}
+.header-cintent p{
+    text-transform:uppercase;
+    font-size:1rem; 
+}
+.header-cintent{
+    /* border:solid .5rem #333; */
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(0,0,0,.03),rgba(0,0,0,.3));
+    
+}
+
+    /*                                               <<<<<<<<<<<<<<<<<<<<<<<<<<<<showcase styling>>>>>>>>>>>>>>>>>>>>> */
+
+    .showcase{
+    background:#ddd ;
+    padding: 10rem 0;
+   
+    
+}
+.row{
+    /* border: solid black 2px; */
+    height:300px;
+    background-color: #F2F3F3;
+    box-shadow: 0px 0px 20px 0px #aaa;
+    
+    
+}
+.row1{
+    margin-bottom:5rem ;
+   
+}
+
+/* .............................................. */
+ /* .row1 .img-box,  .row2 .text-box{
+    float: left;
+    max-width:600px;
+    width: 50%%;
+}
+ .row2 .img-box,  .row1 .text-box{
+    float: right;
+    max-width:600px;
+    width:50%
+    
+    
+} */
+/* ........................................ */
+/* .row .img-box{
+    border: solid red 2px;
+    height: 100%;
+}
+.row .text-box{
+    border:solid green 2px;
+    padding: 3em;
+  
+} */
+ .row1 .img-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    
+    
+ }
+ .row2 .img-box, .row1 .text-box{
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+   
+    
+ }
+
+
+
+
+ .row .img-box {
+    /* border: 2px solid red; */
+     height: 100%; 
+     
+     
+
+  }
+
+ .row .text-box{
+    /* border: 2px solid green; */
+    padding: 10px; 
+    height: 100%;
+    padding-left: 40px;
+    
+    
+   
+    
+    
+}
+
+ /* .row1 .img-box    {
+      background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(../imgfolder/soap\ cover.jpg);
+      background-position:center ;
+      background-repeat:no-repeat ;
+      background-size:cover ;
+
+      
+ }    */
+ .row .img-box img{
+     display: inline-block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+
+ }
+
+ /* .row2 .img-box{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../imgfolder/candle\ cov.jpg);
+    background-position:center ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    
+   
+}   */
+
+
+
+
+
+
+
+
+
+
+ 
+/* <<<<<<<<<<,,,,,,,,,,,,,,,,,<<<<<<<<<<<<<<<<< */
+.navbar::after{
+    content: "";
+    display:table;
+    clear: both;
+
+}
+.row::after{
+    content: '';
+    display:block;
+    clear: both;
+}
+
+
+
+/* bottom panel/Feature section styling>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.............. */
+.feature{
+    padding: 10rem 0;
+}
+
+.box{
+    width: 31.393%;
+    float: left;
+    padding:.5rem;
+    text-align: center;
+
+}
+.box1,.box3{
+    background: #7c5840;
+    color: #F2F3F3;
+}
+.box2{
+    background:#B29079 ;
+    color: #F2F3F3;
+}
+
+ .box-wrapper::after{ 
+    content: "";
+    display:block;
+    clear:both;
+
+} 
+/* >...Footer >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>. */
+.footer{
+    background-color:#333 ;
+    text-align: center;
+    color: #f2f3f3ca;  
+    padding: 2rem;
+}
+.footer p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.fa-facebook{
+    margin-right: 2rem;
+}
+.fa-twitter{
+    margin-right: 2rem;
+}
+
+
+/* >>>>>>>...>>>>>>>>>>>>>>>>>>>>>>>>>>>    utility classes......<<<<<<<<<<<<<<<<< */
+
+
+
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    /* box-sizing: "border-box"; */
+}
+
+.lgheading{
+font-size: 3.5rem;
+}
+.mdheading{
+    font-size: 2.2rem;
+}
+
+.brandyrose{
+  color:#B29079;  
+}
+
+.black{
+    color: #333;
+}
+.grey{
+    color: #555;
+}
+.white{
+    color:#F2F3F3;
+
+}
+.text-red{
+    color:#ee4758 ;
+}
+
+.btn{
+    display: inline-block;
+   padding: .5em 1.5em ;
+   font-weight: 500;
+   text-transform: uppercase;
+   margin:.5em 0;
+
+}
+.btn-primary{
+    background-color: #F2F3F3;
+    border-radius: 10em;
+}
+
+.secbtn{
+    display: inline;
+    padding: .3em 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: .5em 0;
+}
+
+.btn-secondary{
+    /* background-color: #F2F3; */
+    border-radius: 10em;
+
+}
+
+.btn-primary:hover{
+    background-color: #ddd;
+}
+.secbtn:hover{
+    background-color: #ecebeb;
+}
+
+.row .text-box a{
+    border: 2px solid #B29079 ;
+    text-decoration: none;
+}
+/* browncolor: #9e895bfc; */
+.text-brown{
+    color: #9e895bfc;
+}
+
+/* #######About Page Styling#################################### */
+
+.bg-dark{
+    background-color: #9e895bfc;
+}
+.about{
+    padding: 5rem 0;
+}
+
+
+.bold{
+    font-weight: 200;
+}
+/* .so-ca{
+    margin: 5rem 0;
+    color: #9e895bfc;
+    
+   
+} */
+/* >>1part>>>>>>>> */
+.wrap .left-list{
+    float: left;
+    width: 50%;
+    /* text-align: left; */
+}
+.wrap .right-list{
+    float: right;
+    width: 50%;
+    /* text-align: left; */
+}
+.wrap{
+    text-align: center;
+    margin-top: 3rem;
+    
+    
+    
+}
+.wrap::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.wrap li::before{
+    content: '\2713';
+    padding-right: 1rem;
+}
+
+/* >.>>>>>>.2 part */
+.images .f1{
+    
+    float: left;
+    width: 24.580%;
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+.images span{
+    font-size: 3rem;
+    
+    font-weight:700;
+    
+}
+
+.images::after{
+    content: " ";
+    display:block;
+    clear: both;
+}
+/* cta banner>>>>>> */
+.cta{
+    margin-top:3rem ;
+    background:linear-gradient(25deg,#B29079,#b86c3a55 50%) ;
+}
+.cta-left{
+    float: left;
+    width: 75%;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 3rem;
+}
+.cta-right{
+    float: right;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    border: solid 3px #B29079;
+    border-radius: 15px;
+    background-color: #B29079;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+
+
+}
+.cta::after{
+    content: " ";
+    display:block;
+    clear: both;
+}
+.cta a{
+    text-decoration: none;
+    color: #F2F3F3;
+}
+
+/* >>>>>>>>>>>>>>>.Contact Page>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.contact-form{
+    padding: 5rem 0;
+   
+    
+}
+/* .form-wrapper{
+    border: 5px solid red;
+} */
+.company-adress{
+    
+    float: left;
+    width: 47%;
+    /* box-shadow: #413030; */
+    /* border: 5px solid red; */
+    
+}
+ .form{
+    
+    float: right;
+    width: 47%;
+    /* box-shadow: #413030; */
+    /* border: 5px solid red; */
+    padding: 1rem;
+    
+} 
+.form-wrapper::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.company-adress .fa-solid{
+    padding: 2rem;
+    font-size: 2rem;
+}
+.company-adress .location,.company-adress .email,.company-adress .call{
+  font-size: 2rem;
+}
+.company-adress p{
+    font-size: 1.5rem;
+    margin: 1rem 2rem;
+    font-weight: 300;
+}
+.form-wrapper img{
+    max-width: 90%;
+    min-height: 40rem;
+    object-fit: cover;
+    object-position: right;
+    margin-bottom: 2rem;
+    
+}
+
+.contact-us{
+    border-bottom: solid 2px #333 ;
+    margin-bottom: 2.3rem;
+}
+
+.form p{
+
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* >>>form style */
+
+.form-wrapper .form{
+    font-size: 1.6rem;
+   
+    /* border: 4px dotted black;
+    width: 48%;
+    float: right;
+     */
+}
+
+.form-wrapper .form label{
+    display: block;
+}
+
+.form-wrapper .form input{
+    padding: .5rem;
+    width: 90%;
+}
+
+
+.form-wrapper .form .form-group{
+    margin-bottom: 1.2rem;
+}
+
+.form-wrapper .form label::after{
+    content: '*';
+    color: #ee4758;
+}
+
+.form-wrapper .form textarea{
+    padding: 1rem;
+    height: 300px;
+    width: 90%;
+}
+
+.form-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 3em;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background: #B29079;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 3rem;
+}
